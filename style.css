@@ -1,0 +1,174 @@
+body{
+    min-height: 800px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-shrink: 10px;
+}
+
+.wrapper-main{
+    width: 100px;
+    padding: 100px 0;
+    margin: 0;
+}
+
+.img{
+    size: 40%;
+    align-items: center;
+}
+
+.box{
+    height: 600px;
+    width: 300px;
+    font-size: 15px;
+}
+
+#one{
+    background-color:  hsl(31, 77%, 52%);
+    height: 500px;
+    width: 250px;
+    font-size: 15px;
+    justify-content: center;
+   align-items: center;
+}
+
+#one h1{ 
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+#one p{
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.abc{
+    background-color:  hsl(31, 77%, 52%);
+    margin-left:25px;
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 80px;
+
+}
+
+#two{
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 250px;
+    font-size: 15px;
+    justify-content: center;
+   align-items: center;
+}
+
+#two h1{
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+#two p{
+    color: white;
+    margin-left: 50px;
+}
+
+.bca{
+    margin-left:50px;
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 80px;
+
+}
+
+
+#three{
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    width: 250px;
+    font-size: 15px;
+    justify-content: center;
+   align-items: center;
+}
+
+#three h1{
+    color: white;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+#three p{
+    color:white;
+    margin-left: 50px;
+}
+
+.cab{
+    margin-left:50px;
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+@media(min-height:375px){
+    .wrapper-main{
+        width: 1000px;
+        padding: 100px 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(min-width:680px){
+    .wrapper-main{
+        width: 100px;
+        padding: 100px 0;
+        margin: 0;
+        
+    }
+
+}
+
+@media(min-width:768px){
+    .wrapper-main{
+        width: 100px;
+        padding: 100px 0;
+        margin: 0;
+        
+    }
+    #one {
+        flex-shrink: 15px;
+    }
+    #two {
+        flex-shrink: 15px;
+    }
+    #three {
+        flex-shrink: 15px;
+    }
+
+}
+
+@media(min-height:1024px){
+    .wrapper-main{
+        width: 100px;
+        padding: 100px 0;
+        margin: 0;
+        
+    }
+
+}
+
+@media(min-width:1280px){
+    .wrapper-main{
+        width: 100px;
+        padding: 100px 0;
+        margin: 0;
+        
+    }
+
+}
+ 
